@@ -1,5 +1,6 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("قوى", "BloodTheme")
 local Tab = Window:NewTab("القائمه الرئيسية")
-local Section = Tab:NewSection("سكربت جني")loadstring(game:HttpGet("https://raw.githubusercontent.com/Luarmor123/community-Y-HUB/refs/heads/main/YHUB"))()
-local Section = Tab:NewSection("سكربت ام ام تو")loadstring(game:HttpGet"https://raw.githubusercontent.com/Au0yX/Community/main/XhubMM2")("https://t.me/arceusxscripts")
+Section:NewButton("سرعه", "تزيد من سرعه لاعبك", function()game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 100
+    print("Clicked")
+end)
