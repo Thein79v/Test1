@@ -1,4 +1,6 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("قوى", "BloodTheme")
 local Tab = Window:NewTab("القائمه الرئيسية")
-Section:NewButton("سرعه لاعب", "زيادة سرعه الاعب", function(game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 100)
+Section:NewButton("ButtonText", "ButtonInfo", function()
+    print("Clicked")
+end)
