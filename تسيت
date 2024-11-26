@@ -1,0 +1,9 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+
+local Window = Library.CreateLib("اسم السكربت", "DarkTheme")
+
+local Tab = Window:NewTab("اسم الTab")
+
+Section:NewButton("اسم الزر", "معلومات الزر", function()
+    print("Clicked")
+end)
