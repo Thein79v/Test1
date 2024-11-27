@@ -4,6 +4,6 @@ local Window = Library.CreateLib("اسم السكربت", "DarkTheme")
 
 local Tab = Window:NewTab("اسم الTab")
 
-Section:NewButton("اسم الزر", "معلومات الزر", function()
+Section:NewButton("YHUB", "معلومات الزر", function()loadstring(game:HttpGet("https://raw.githubusercontent.com/Luarmor123/community-Y-HUB/refs/heads/main/YHUB%20Brookhaven"))()
     print("Clicked")
 end)
